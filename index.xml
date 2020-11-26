@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sunil Vijendra</title>
+    <link>https://sunilvijendra.github.io/</link>
+    <description>Recent content on Sunil Vijendra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://sunilvijendra.github.io/about/</link>
+      <pubDate>Thu, 26 Nov 2020 20:24:18 +0530</pubDate>
+      
+      <guid>https://sunilvijendra.github.io/about/</guid>
+      <description>My name is Sunil Vijendra.</description>
+    </item>
+    
+  </channel>
+</rss>
