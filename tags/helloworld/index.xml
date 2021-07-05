@@ -3,25 +3,21 @@
   <channel>
     <title>helloworld on Sunil Vijendra</title>
     <link>https://sunilvijendra.github.io/tags/helloworld/</link>
-    <description>Sunil Vijendra (helloworld)</description>
+    <description>Recent content in helloworld on Sunil Vijendra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jul 2021 06:00:00 +0530</lastBuildDate>
-    
-    <atom:link href="https://sunilvijendra.github.io/tags/helloworld/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 05 Jul 2021 06:00:00 +0530</lastBuildDate><atom:link href="https://sunilvijendra.github.io/tags/helloworld/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, World</title>
-      <link>https://sunilvijendra.github.io/posts/hello-world/</link>
+      <link>https://sunilvijendra.github.io/posts/2021/07/hello-world/</link>
       <pubDate>Mon, 05 Jul 2021 06:00:00 +0530</pubDate>
       
-      <guid>https://sunilvijendra.github.io/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello, World!&lt;/p&gt;
-&lt;p&gt;I am a developer! So, the first blog on this page is also titled aptly :-)&lt;/p&gt;
-&lt;p&gt;This post is to just check if all the gear is ready and working! All seem to be up and running. It is powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and hosted on &lt;a href=&#34;https://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Mark the page and come back soon as I start sharing my learning!&lt;/p&gt;
-</description>
+      <guid>https://sunilvijendra.github.io/posts/2021/07/hello-world/</guid>
+      <description>Hello, World!
+I am a developer! So, the first blog on this page is also titled aptly :-)
+This post is to just check if all the gear is ready and working! All seem to be up and running. It is powered by Hugo and hosted on GitHub Pages.
+Mark the page and come back soon as I start sharing my learning!</description>
     </item>
     
   </channel>
