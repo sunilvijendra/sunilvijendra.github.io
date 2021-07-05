@@ -3,8 +3,13 @@
   <channel>
     <title>Tags on Sunil Vijendra</title>
     <link>https://sunilvijendra.github.io/tags/</link>
-    <description>Recent content in Tags on Sunil Vijendra</description>
+    <description>Sunil Vijendra (Tags)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://sunilvijendra.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 06:00:00 +0530</lastBuildDate>
+    
+    <atom:link href="https://sunilvijendra.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

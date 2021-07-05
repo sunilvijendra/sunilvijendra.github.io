@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sunil Vijendra</title>
-    <link>https://sunilvijendra.github.io/</link>
-    <description>Sunil Vijendra</description>
+    <title>Posts on Sunil Vijendra</title>
+    <link>https://sunilvijendra.github.io/posts/</link>
+    <description>Sunil Vijendra (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Jul 2021 06:00:00 +0530</lastBuildDate>
     
-    <atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sunilvijendra.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://sunilvijendra.github.io/about/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunilvijendra.github.io/about/</guid>
-      <description>&lt;p&gt;My name is Sunil Vijendra. I am passionate about building solutions and tools that simplify user experience and add value. At work, I design and build solutions for private and hybrid cloud systems.&lt;/p&gt;
-&lt;p&gt;The views and opinions expressed here are solely mine and I do not speak for my employer.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Hello, World</title>
