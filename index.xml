@@ -6,7 +6,18 @@
     <description>Recent content on sunil vijendra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting started with Go</title>
+      <link>https://sunilvijendra.github.io/posts/getting-started-with-go/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunilvijendra.github.io/posts/getting-started-with-go/</guid>
+      <description>Why Hello, World! Link to heading If you already know how to program and getting started on Go, the first program to write is &amp;ldquo;Hello, World!&amp;rdquo;. The basic reason for this is to ensure that the environment is all working well and you can compile and run the program without any issues.
+First step is to install Go based on your platform.
+And, below is the &amp;lsquo;Hello, World!&amp;rsquo; program you can use:</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://sunilvijendra.github.io/about/</link>

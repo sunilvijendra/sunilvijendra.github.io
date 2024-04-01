@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Getting started with Go · sunil vijendra
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Sunil Vijendra">
+<meta name="description" content="Why Hello, World! Link to heading If you already know how to program and getting started on Go, the first program to write is &ldquo;Hello, World!&rdquo;. The basic reason for this is to ensure that the environment is all working well and you can compile and run the program without any issues.
+First step is to install Go based on your platform.
+And, below is the &lsquo;Hello, World!&rsquo; program you can use:">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting started with Go"/>
+<meta name="twitter:description" content="Why Hello, World! Link to heading If you already know how to program and getting started on Go, the first program to write is &ldquo;Hello, World!&rdquo;. The basic reason for this is to ensure that the environment is all working well and you can compile and run the program without any issues.
+First step is to install Go based on your platform.
+And, below is the &lsquo;Hello, World!&rsquo; program you can use:"/>
+
+<meta property="og:title" content="Getting started with Go" />
+<meta property="og:description" content="Why Hello, World! Link to heading If you already know how to program and getting started on Go, the first program to write is &ldquo;Hello, World!&rdquo;. The basic reason for this is to ensure that the environment is all working well and you can compile and run the program without any issues.
+First step is to install Go based on your platform.
+And, below is the &lsquo;Hello, World!&rsquo; program you can use:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sunilvijendra.github.io/posts/getting-started-with-go/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-01T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://sunilvijendra.github.io/posts/getting-started-with-go/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://sunilvijendra.github.io">
+      sunil vijendra
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://sunilvijendra.github.io/posts/getting-started-with-go/">
+              Getting started with Go
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-04-01T00:00:00Z">
+                April 1, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/getting-started/">getting started</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/go/">go</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/programming/">programming</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/golang/">golang</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="why-hello-world">
+  Why Hello, World!
+  <a class="heading-link" href="#why-hello-world">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>If you already know how to program and getting started on Go, the first program to write is &ldquo;Hello, World!&rdquo;. The basic reason for this is to ensure that the environment is all working well and you can compile and run the program without any issues.</p>
+<p>First step is to <a href="https://go.dev/doc/install"  class="external-link" target="_blank" rel="noopener">install Go</a> based on your platform.</p>
+<p>And, below is the &lsquo;Hello, World!&rsquo; program you can use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package main</code>     </td>
+<td>All Go programs are made up of packages. main is a special package for executable programs</td>
+</tr>
+<tr>
+<td><code>import &quot;fmt&quot;           </code></td>
+<td>This program is importing the package called - fmt</td>
+</tr>
+<tr>
+<td><code>func main()            </code></td>
+<td>main is a special function which is the entry point</td>
+</tr>
+<tr>
+<td><code>fmt.Println            </code></td>
+<td>Println is the exported function fmt package which prints a string</td>
+</tr>
+</tbody>
+</table>
+<p>Now copy the above code and create a new file names &ldquo;hello.go&rdquo; and run the below command in the folder:</p>
+<pre tabindex="0"><code>&gt; go run hello.go
+Hello, World!
+&gt;
+</code></pre><p>If it prints &ldquo;Hello, World!&rdquo;, then you are all set to Go!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        <div class="comments">
+    <script>
+  
+    let getTheme = window.localStorage && window.localStorage.getItem("colorscheme");
+  
+    getTheme = getTheme == null ? 'light' : getTheme;
+    
+    let s = document.createElement('script');
+    s.src = 'https://giscus.app/client.js';
+    s.setAttribute('data-repo', 'sunilvijendra\/sunilvijendra.github.io');
+    s.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnkzMDk2MTk3ODQ');
+    s.setAttribute('data-category', 'Announcements');
+    s.setAttribute('data-category-id', 'DIC_kwDOEnRsSM4CeX53');
+    s.setAttribute('data-mapping', 'pathname');
+    s.setAttribute('data-term', '');
+    s.setAttribute('data-strict', '1');
+    s.setAttribute('data-reactions-enabled', '1');
+    s.setAttribute('data-emit-metadata', '0');
+    s.setAttribute('data-input-position', 'top');
+    s.setAttribute('data-theme', getTheme);
+    s.setAttribute('data-lang', 'en');
+    s.setAttribute('data-loading', 'lazy');
+    s.setAttribute('crossorigin', 'anonymous');
+    s.setAttribute('async', '');
+    document.querySelector('div.comments').innerHTML = '';
+    document.querySelector('div.comments').appendChild(s);
+  
+    </script>
+    </div>
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Sunil Vijendra 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
