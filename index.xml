@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sunil Vijendra</title>
+    <title>sunil vijendra</title>
     <link>https://sunilvijendra.github.io/</link>
-    <description>Recent content on Sunil Vijendra</description>
+    <description>Recent content on sunil vijendra</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 05 Jul 2021 06:00:00 +0530</lastBuildDate><atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sunilvijendra.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://sunilvijendra.github.io/about/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://sunilvijendra.github.io/about/</guid>
-      <description>My name is Sunil Vijendra. I am passionate about building solutions and tools that simplify user experience and add value. At work, I design and build solutions for private and hybrid cloud systems.
-The views and opinions expressed here are solely mine and I do not speak for my employer.</description>
+      <description>My name is Sunil Vijendra and I am from Bangalore, India. I love building solutions that adds value and simplify user experience. I am a curious learner and now thought of sharing my learning through posts, videos etc.
+At work, I design and build solutions for private and hybrid cloud systems.
+The views expressed here are solely mine and only mine. I do not speak here for my employer.
+You can reach me at Sunil {dot} Vijendra {at} gmail {dot} com.</description>
     </item>
     
     <item>
-      <title>Hello, World</title>
-      <link>https://sunilvijendra.github.io/posts/2021/07/hello-world/</link>
-      <pubDate>Mon, 05 Jul 2021 06:00:00 +0530</pubDate>
+      <title>What exactly is system design?</title>
+      <link>https://sunilvijendra.github.io/posts/system-design-fundamentals/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://sunilvijendra.github.io/posts/2021/07/hello-world/</guid>
-      <description>Hello, World!
-I am a developer! So, the first blog on this page is also titled aptly :-)
-This post is to just check if all the gear is ready and working! All seem to be up and running. It is powered by Hugo and hosted on GitHub Pages.
-Mark the page and come back soon as I start sharing my learning!</description>
+      <guid>https://sunilvijendra.github.io/posts/system-design-fundamentals/</guid>
+      <description>System Design is the process of identifying and defining the various components of the system, their relationships, and the data flow.
+When building a product or a feature there is no prize for guessing what happens if an individual or team entirely skips the design process or only design at a high level. Sooner or later, they will have to get back to the drawing board and design it again!</description>
     </item>
     
   </channel>
